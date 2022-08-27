@@ -5,10 +5,35 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
+.container{
+    width: 90%;
+    margin: auto;
+    margin-top: 2rem;
+}
+.container .input{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+    margin: auto;
+    box-shadow: 1px 1px 10px 1px rgb(221, 221, 221);
+    border-radius: 2rem;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+.container .input input{
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 0px 10px;
+    font-size: 16px;
+    color: gray;
+}
 main{
     width: 90%;
     margin: auto;
     overflow-x: hidden;
+    padding: 2rem 5px;
 }
 section{
     display: grid;
@@ -21,4 +46,25 @@ section div{
     overflow: hidden;
     border-radius: 10px;
     padding: 10px;
+}
+section div img{
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 10px;
+}
+section div h6{
+    font-size: 16px;
+    color: gray;
+    margin: 5px 0;
+    font-weight: 400;
+}
+section div h5{
+    font-size: 18px;
+    color: black;
+    text-transform: uppercase;
+}
+section div h4{
+    font-size: 13px;
+    color: rgb(94, 94, 93);
 }
