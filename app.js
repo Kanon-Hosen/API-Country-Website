@@ -6,7 +6,6 @@ const api = () => {
             console.log(item)
             const section = document.getElementById('section');
             const div = document.createElement('div');
-            div.classList.add('box');
             div.innerHTML = `
                 <img src="${item.flags.png}">
                 <h5>${item.name.common}</h5>
